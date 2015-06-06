@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta content="text/html" charset="utf-8" http-equiv="content-type">
+	<title>scripts</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/panels.css">
+    <link rel="stylesheet" type="text/css" href="styles/default.css">
+    <script language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script language="javascript" src="js/lib/helpers.js"></script>
+    <script language="javascript" src="js/scripts/game.js"></script>
+	<script language="javascript" src="js/scripts/matrix.js"></script>
+	<script language="javascript" src="js/scripts/point.js"></script>
+	<script language="javascript" src="js/scripts/food.js"></script>
+	<script language="javascript" src="js/scripts/worm.js"></script>
+	
+	<script language="javascript" src="js/onload.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="column play-field">
+        <div class="wrapper play-field">
+            <div class="header">worm</div>
+            <div class="content">
+                <div id="matrix"></div>
+            </div>
+
+            <div id="message" class="ui-widget-content ui-corner-all">
+                <div id="start"></div>
+                <div id="gameOver"></div>
+            </div>
+        </div>
+    
+</div>
+
+    <div class="column">
+
+        <div class="wrapper">
+            <div class="header">Score</div>
+             <div class="content"><span id="score">0</span></div>
+        </div>
+
+        <div class="wrapper">
+            <div class="header">Level</div>
+            <div class="content">
+                <span id="level">0</span>
+            </div>
+
+        </div>
+           
+        <div class="wrapper">
+            <div class="header">Timer</div>
+            <div class="content"><span id="timer">0</span></div>
+        </div>
+        
+    </div>
+
+</div>
+</body>
+</html>
